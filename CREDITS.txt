@@ -1,0 +1,47 @@
+LUDUS HTML5 Platformer Game Starter Kit for Windows 8 Store
+Version 1.4 rev.177 (MIT license)
+by Christer (@McFunkypants) Kaitila (http://mcfunkypants.com)
+
+Source: https://github.com/mcfunkypants/ludus
+Demos: http://www.mcfunkypants.com/ludus
+
+I gratefully acknowledge the following open source projects:
+
+JAWSJS canvas engine by Ippa Lix (LGPL license)
+- Source: https://github.com/ippa/jaws
+- Demos and documentation: http://www.jawsjs.com
+
+HOWLERJS sound engine by James Simpson (MIT license)
+- Source: (https://github.com/goldfire/howler.js)
+- Demos and documentation: http://www.howlerjs.com
+
+TWEENJS engine by sole, mrdoob, et al (MIT license)
+- Source and demos: https://github.com/sole/tween.js
+
+TILED map editor by Thorbjørn Lindeijer
+- Source: https://github.com/bjorn/tiled
+- Download: http://www.mapeditor.org
+
+Informal summary of licenses: you can use/modify ludus.js
+for any purpose, free or commercial, and do not have to 
+make your project open source. Enjoy! Please give credit.
+
+The artwork in the example games is CC-BY (attribution)
+Please refer to the main menu credits button for details.
+If you reuse these assets, give credit - they deserve it!
+
+Gwendolynn World Tiles: Richard "Jetrel" Kettering
+Gwendolynn World Tiles: Carl "Surt" Olsson
+Gwendolynn Characters: Richard "Jetrel" Kettering
+Gwendolyn Music: Zero Project
+Rubba Rabbit World Tiles: Carl "Surt" Olsson
+Rubba Rabbit Character: Stephen "Redshrike" Challener
+Rubba Rabbit Music: Christer "McFunkypants" Kaitila
+Pickups (fruit/treasure) icons: Henrique "7Soul" Lazarini
+GUI, Particles, other art: Christer "McFunkypants" Kaitila
+
+Enjoy!
+
+Christer Kaitila
+@McFunkypants on twitter
+http://www.mcfunkypants.com
