@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Platformer</title>
+
+    <meta http-equiv="x-ua-compatible" content="IE=edge" /> 
+    
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- Platformer references -->
+    <link href="app-css/default.css" rel="stylesheet" />
+    <script src="js/jaws.js" type="text/javascript"></script>
+    <script src="js/howler.js" type="text/javascript"></script>
+    <script src="js/Tween.js" type="text/javascript"></script>
+    <script src="game-media/level1.js" type="text/javascript"></script>
+    <script src="js/game.js" type="text/javascript"></script>  
+    <script src="js/default.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+    // Create a canvas
+    var canvas = document.createElement("canvas");
+    // liquid layout: stretch to fill
+    canvas.width = window.innerWidth - 160;
+    canvas.height = window.innerHeight - 160;
+    //canvas.width = 768;
+    //canvas.height = 512;
+    // the id the game engine looks for
+    canvas.id = 'canvas';
+    // test that all is working
+    var canvasContext2D = canvas.getContext("2d");
+    canvasContext2D.fillStyle = "#292929";
+    canvasContext2D.fillRect(0, 0, canvas.width, canvas.height);
+    // add the canvas element to the html document
+    document.body.appendChild(canvas);
+</script>
+
+<!-- screen overlay lowers fps by 1 or 2 -->
+<!--
+<div id='scanlines'></div> 
+<div id='bezelt'></div>
+<div id='bezelb'></div>
+<div id='bezell'></div>
+<div id='bezelr'></div>
+-->
+
+<!-- text and buttons lower fps by 7fps! FPS display also eats perf! -->
+<span id='info'></span>
+<!--
+<span id='header'>"Win8 HTML5 Platformer Starter Kit by <a href='http://twitter.com/McFunkypants'>@McFunkypants</a> &copy; 2013</span>
+<span id='info'></span>
+<span id='time'>Time:</span>
+<span id='footer'>Made for <a href='http://www.onegameamonth.com'>#1GAM</a> using <a href='http://www.jawsjs.com'>JAWSJS</a> and <a href='http://www.howlerjs.com'>HOWLER</a> - Art by Jetrel</span>
+-->
+
+<!-- these vars aren't globals FIXME 
+<a id='buttonleft' onmousedown='touchleft=1' onmouseup='touchleft=0' ontouchstart='touchleft=1' ontouchend='touchleft=0'></a>
+<a id='buttonright' onmousedown='touchright=1' onmouseup='touchleft=0' ontouchstart='touchright=1' ontouchend='touchright=0'></a>
+<a id='buttondown' onmousedown='touchattack=1' onmouseup='touchattack=0' ontouchstart='touchattack=1' ontouchend='touchattack=0'></a>
+<a id='buttonup' onmousedown='touchjump=1' onmouseup='touchjump=0' ontouchstart='touchjump=1' ontouchend='touchjump=0'></a>
+-->
+
+<div id='buttonleft'></div>
+<div id='buttonright'></div>
+<div id='buttondown'></div>
+<div id='buttonup'></div>
+
+</body>
+</html>

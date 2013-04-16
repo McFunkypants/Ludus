@@ -1,0 +1,126 @@
+﻿html {
+    -ms-touch-action: none;
+    -ms-user-select: none;
+    -ms-high-contrast-adjust: none;
+}
+
+body {
+    background: black;
+    font-weight: bold;
+    font: 16px verdana;
+    font-weight: bold;
+    color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -ms-touch-action: none;
+    -ms-user-select: none;
+    -ms-high-contrast-adjust: none;
+}
+
+#canvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-touch-action: none;
+    -ms-user-select: none;
+    -ms-high-contrast-adjust: none;
+}
+
+#info {
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+    -ms-high-contrast-adjust: none;
+}
+
+#buttonleft {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 80px;
+    height: 80px;
+    display: block;
+    outline: none;
+    border: none;
+    background-image: url(../game-media/button-left.png);
+    -ms-high-contrast-adjust: none;
+}
+
+#buttonright {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+    width: 80px;
+    height: 80px;
+    display: block;
+    outline: none;
+    border: none;
+    background-image: url(../game-media/button-right.png);
+    -ms-high-contrast-adjust: none;
+}
+
+#buttonpause {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: -40px;
+    display: block;
+    outline: none;
+    border: none;
+    background-image: url(../game-media/button-pause.png);
+    -ms-high-contrast-adjust: none;
+}
+
+#buttondown {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+    width: 80px;
+    height: 80px;
+    display: block;
+    outline: none;
+    border: none;
+    background-image: url(../game-media/button-down.png);
+    -ms-high-contrast-adjust: none;
+}
+
+#buttonup {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    display: block;
+    outline: none;
+    border: none;
+    background-image: url(../game-media/button-up.png);
+    -ms-high-contrast-adjust: none;
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
+
+@media screen and (-ms-high-contrast: active) {
+}
+

@@ -1,0 +1,9 @@
+C:\Users\Mc\Desktop\Platformer\Platformer\bin\Release\resources.pri
+C:\Users\Mc\Desktop\Platformer\Platformer\bin\Release\AppxManifest.xml
+C:\Users\Mc\Desktop\Platformer\Platformer\bin\Release\Platformer.build.appxrecipe
+C:\Users\Mc\Desktop\Platformer\Platformer\bld\Release\priconfig.xml
+C:\Users\Mc\Desktop\Platformer\Platformer\bld\Release\layout.resfiles
+C:\Users\Mc\Desktop\Platformer\Platformer\bld\Release\resources.resfiles
+C:\Users\Mc\Desktop\Platformer\Platformer\bld\Release\pri.resfiles
+C:\Users\Mc\Desktop\Platformer\Platformer\bld\Release\LanguageQualifiers.txt
+C:\Users\Mc\Desktop\Platformer\Platformer\bld\Release\ProjectArchitectures.txt

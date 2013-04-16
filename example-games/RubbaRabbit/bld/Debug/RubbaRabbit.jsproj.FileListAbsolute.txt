@@ -1,0 +1,13 @@
+C:\Users\Mc\Desktop\RubbaRabbit\bin\Debug\resources.pri
+C:\Users\Mc\Desktop\RubbaRabbit\bin\Debug\AppxManifest.xml
+C:\Users\Mc\Desktop\RubbaRabbit\bin\Debug\RubbaRabbit.build.appxrecipe
+C:\Users\Mc\Desktop\RubbaRabbit\bld\Debug\priconfig.xml.intermediate
+C:\Users\Mc\Desktop\RubbaRabbit\bld\Debug\layout.resfiles.intermediate
+C:\Users\Mc\Desktop\RubbaRabbit\bld\Debug\resources.resfiles.intermediate
+C:\Users\Mc\Desktop\RubbaRabbit\bld\Debug\pri.resfiles.intermediate
+C:\Users\Mc\Desktop\RubbaRabbit\bld\Debug\priconfig.xml
+C:\Users\Mc\Desktop\RubbaRabbit\bld\Debug\layout.resfiles
+C:\Users\Mc\Desktop\RubbaRabbit\bld\Debug\resources.resfiles
+C:\Users\Mc\Desktop\RubbaRabbit\bld\Debug\pri.resfiles
+C:\Users\Mc\Desktop\RubbaRabbit\bld\Debug\LanguageQualifiers.txt
+C:\Users\Mc\Desktop\RubbaRabbit\bld\Debug\ProjectArchitectures.txt

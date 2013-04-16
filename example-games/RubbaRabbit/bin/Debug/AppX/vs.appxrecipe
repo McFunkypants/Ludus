@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>FUNKY</Machine>
+    <WindowsUser>Mc</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>320757D76FAB6D5BF36969D67FEB5766CB7CECFA6DD440ADA9544502099EE752</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>a7a4512a-1c57-47b1-ad07-147f34959733_1.1.12.61_neutral__jecck05a2ae4t</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>a7a4512a-1c57-47b1-ad07-147f34959733_jecck05a2ae4t!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>a7a4512a-1c57-47b1-ad07-147f34959733</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Mc</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.12.61</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Mc\Desktop\RubbaRabbit\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-26T20:45:57.052</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-03-24T18:00:17.444</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\game-media\attack.mp3">
+      <PackagePath>game-media\attack.mp3</PackagePath>
+      <Modified>2013-03-23T16:42:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\game-media\bounce.mp3">
+      <PackagePath>game-media\bounce.mp3</PackagePath>
+      <Modified>2013-03-23T16:43:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\game-media\die.mp3">
+      <PackagePath>game-media\die.mp3</PackagePath>
+      <Modified>2013-03-23T16:43:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\game-media\jump.mp3">
+      <PackagePath>game-media\jump.mp3</PackagePath>
+      <Modified>2013-03-23T16:43:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\game-media\music.mp3">
+      <PackagePath>game-media\music.mp3</PackagePath>
+      <Modified>2013-03-23T16:27:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\game-media\pickup.mp3">
+      <PackagePath>game-media\pickup.mp3</PackagePath>
+      <Modified>2013-03-23T18:21:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\game-media\swish.mp3">
+      <PackagePath>game-media\swish.mp3</PackagePath>
+      <Modified>2013-03-09T00:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\game-media\background.jpg">
+      <PackagePath>game-media\background.jpg</PackagePath>
+      <Modified>2013-03-17T17:50:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\game-media\button-down.png">
+      <PackagePath>game-media\button-down.png</PackagePath>
+      <Modified>2013-03-09T00:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\game-media\button-left.png">
+      <PackagePath>game-media\button-left.png</PackagePath>
+      <Modified>2013-03-09T00:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\game-media\button-right.png">
+      <PackagePath>game-media\button-right.png</PackagePath>
+      <Modified>2013-03-09T00:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\game-media\button-up.png">
+      <PackagePath>game-media\button-up.png</PackagePath>
+      <Modified>2013-03-09T00:36:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\game-media\enemies.png">
+      <PackagePath>game-media\enemies.png</PackagePath>
+      <Modified>2013-03-23T19:59:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\game-media\font.png">
+      <PackagePath>game-media\font.png</PackagePath>
+      <Modified>2013-03-23T18:50:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\game-media\gameover.png">
+      <PackagePath>game-media\gameover.png</PackagePath>
+      <Modified>2013-03-17T20:52:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\game-media\msgbox.png">
+      <PackagePath>game-media\msgbox.png</PackagePath>
+      <Modified>2013-03-23T17:50:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\game-media\parallax.png">
+      <PackagePath>game-media\parallax.png</PackagePath>
+      <Modified>2013-03-25T03:57:51.696</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\game-media\particles.png">
+      <PackagePath>game-media\particles.png</PackagePath>
+      <Modified>2013-03-28T03:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\game-media\player.png">
+      <PackagePath>game-media\player.png</PackagePath>
+      <Modified>2013-03-23T21:07:42.628</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\game-media\tiles.png">
+      <PackagePath>game-media\tiles.png</PackagePath>
+      <Modified>2013-03-23T20:25:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\game-media\titlescreen.png">
+      <PackagePath>game-media\titlescreen.png</PackagePath>
+      <Modified>2013-03-23T18:03:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\badge.scale-100.png">
+      <PackagePath>images\badge.scale-100.png</PackagePath>
+      <Modified>2013-03-25T03:01:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\badge.scale-140.png">
+      <PackagePath>images\badge.scale-140.png</PackagePath>
+      <Modified>2013-03-25T03:03:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\badge.scale-180.png">
+      <PackagePath>images\badge.scale-180.png</PackagePath>
+      <Modified>2013-03-25T03:03:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-25T02:59:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo.scale-140.png">
+      <PackagePath>images\logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-25T02:59:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo.scale-180.png">
+      <PackagePath>images\logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-25T02:59:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo.scale-80.png">
+      <PackagePath>images\logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-25T03:00:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo120.png">
+      <PackagePath>images\logo120.png</PackagePath>
+      <Modified>2013-03-25T03:00:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo150.png">
+      <PackagePath>images\logo150.png</PackagePath>
+      <Modified>2013-03-25T02:59:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo150.scale-100.png">
+      <PackagePath>images\logo150.scale-100.png</PackagePath>
+      <Modified>2013-03-25T02:59:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo16.png">
+      <PackagePath>images\logo16.png</PackagePath>
+      <Modified>2013-03-25T03:02:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo210.png">
+      <PackagePath>images\logo210.png</PackagePath>
+      <Modified>2013-03-25T02:59:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo24.png">
+      <PackagePath>images\logo24.png</PackagePath>
+      <Modified>2013-03-25T03:01:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo256.png">
+      <PackagePath>images\logo256.png</PackagePath>
+      <Modified>2013-03-25T03:00:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo256.scale-100.png">
+      <PackagePath>images\logo256.scale-100.png</PackagePath>
+      <Modified>2013-03-25T03:01:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo256.scale-140.png">
+      <PackagePath>images\logo256.scale-140.png</PackagePath>
+      <Modified>2013-03-25T03:01:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo256.scale-180.png">
+      <PackagePath>images\logo256.scale-180.png</PackagePath>
+      <Modified>2013-03-25T03:00:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo256.scale-80.png">
+      <PackagePath>images\logo256.scale-80.png</PackagePath>
+      <Modified>2013-03-25T03:01:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo256.targetsize-16.png">
+      <PackagePath>images\logo256.targetsize-16.png</PackagePath>
+      <Modified>2013-03-25T03:02:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo256.targetsize-256.png">
+      <PackagePath>images\logo256.targetsize-256.png</PackagePath>
+      <Modified>2013-03-25T03:00:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo256.targetsize-32.png">
+      <PackagePath>images\logo256.targetsize-32.png</PackagePath>
+      <Modified>2013-03-25T03:02:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo256.targetsize-48.png">
+      <PackagePath>images\logo256.targetsize-48.png</PackagePath>
+      <Modified>2013-03-25T03:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo270.png">
+      <PackagePath>images\logo270.png</PackagePath>
+      <Modified>2013-03-25T02:59:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo270.scale-100.png">
+      <PackagePath>images\logo270.scale-100.png</PackagePath>
+      <Modified>2013-03-25T02:59:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo270.scale-140.png">
+      <PackagePath>images\logo270.scale-140.png</PackagePath>
+      <Modified>2013-03-25T02:59:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo270.scale-180.png">
+      <PackagePath>images\logo270.scale-180.png</PackagePath>
+      <Modified>2013-03-25T02:59:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo270.scale-80.png">
+      <PackagePath>images\logo270.scale-80.png</PackagePath>
+      <Modified>2013-03-25T03:00:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo30.png">
+      <PackagePath>images\logo30.png</PackagePath>
+      <Modified>2013-03-25T03:01:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo32.png">
+      <PackagePath>images\logo32.png</PackagePath>
+      <Modified>2013-03-25T03:02:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo34.png">
+      <PackagePath>images\logo34.png</PackagePath>
+      <Modified>2013-03-25T03:03:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo42.png">
+      <PackagePath>images\logo42.png</PackagePath>
+      <Modified>2013-03-25T03:01:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo43.png">
+      <PackagePath>images\logo43.png</PackagePath>
+      <Modified>2013-03-25T03:03:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo43.scale-100.png">
+      <PackagePath>images\logo43.scale-100.png</PackagePath>
+      <Modified>2013-03-25T03:01:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo43.scale-140.png">
+      <PackagePath>images\logo43.scale-140.png</PackagePath>
+      <Modified>2013-03-25T03:03:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo43.scale-180.png">
+      <PackagePath>images\logo43.scale-180.png</PackagePath>
+      <Modified>2013-03-25T03:03:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo48.png">
+      <PackagePath>images\logo48.png</PackagePath>
+      <Modified>2013-03-25T03:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo480.png">
+      <PackagePath>images\logo480.png</PackagePath>
+      <Modified>2013-03-25T02:58:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo50.png">
+      <PackagePath>images\logo50.png</PackagePath>
+      <Modified>2013-03-25T03:03:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo54.png">
+      <PackagePath>images\logo54.png</PackagePath>
+      <Modified>2013-03-25T03:00:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo558.scale-100.png">
+      <PackagePath>images\logo558.scale-100.png</PackagePath>
+      <Modified>2013-03-25T03:13:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo558.scale-140.png">
+      <PackagePath>images\logo558.scale-140.png</PackagePath>
+      <Modified>2013-03-25T03:13:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo558.scale-180.png">
+      <PackagePath>images\logo558.scale-180.png</PackagePath>
+      <Modified>2013-03-25T03:12:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo558.scale-80.png">
+      <PackagePath>images\logo558.scale-80.png</PackagePath>
+      <Modified>2013-03-25T03:13:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo70.png">
+      <PackagePath>images\logo70.png</PackagePath>
+      <Modified>2013-03-25T03:02:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo90.png">
+      <PackagePath>images\logo90.png</PackagePath>
+      <Modified>2013-03-25T03:02:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo90.scale-100.png">
+      <PackagePath>images\logo90.scale-100.png</PackagePath>
+      <Modified>2013-03-25T03:03:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo90.scale-140.png">
+      <PackagePath>images\logo90.scale-140.png</PackagePath>
+      <Modified>2013-03-25T03:02:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\logo90.scale-180.png">
+      <PackagePath>images\logo90.scale-180.png</PackagePath>
+      <Modified>2013-03-25T03:02:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\small.scale-100.png">
+      <PackagePath>images\small.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-25T03:01:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\small.scale-140.png">
+      <PackagePath>images\small.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-25T03:01:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\small.scale-180.png">
+      <PackagePath>images\small.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-25T03:00:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\small.scale-80.png">
+      <PackagePath>images\small.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-25T03:01:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\small.targetsize-16.png">
+      <PackagePath>images\small.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-25T03:02:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\small.targetsize-256.png">
+      <PackagePath>images\small.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-25T03:00:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\small.targetsize-32.png">
+      <PackagePath>images\small.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-25T03:02:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\small.targetsize-48.png">
+      <PackagePath>images\small.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-25T03:01:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-25T03:12:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\splashscreen.scale-140.png">
+      <PackagePath>images\splashscreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-25T03:11:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\splashscreen.scale-180.png">
+      <PackagePath>images\splashscreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-25T03:11:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\splashscreen1116.png">
+      <PackagePath>images\splashscreen1116.png</PackagePath>
+      <Modified>2013-03-25T03:11:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\splashscreen1116.scale-100.png">
+      <PackagePath>images\splashscreen1116.scale-100.png</PackagePath>
+      <Modified>2013-03-25T03:12:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\splashscreen1116.scale-140.png">
+      <PackagePath>images\splashscreen1116.scale-140.png</PackagePath>
+      <Modified>2013-03-25T03:11:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\splashscreen1116.scale-180.png">
+      <PackagePath>images\splashscreen1116.scale-180.png</PackagePath>
+      <Modified>2013-03-25T03:11:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\splashscreen620.png">
+      <PackagePath>images\splashscreen620.png</PackagePath>
+      <Modified>2013-03-25T03:12:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\splashscreen868.png">
+      <PackagePath>images\splashscreen868.png</PackagePath>
+      <Modified>2013-03-25T03:11:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\store.scale-100.png">
+      <PackagePath>images\store.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-25T03:03:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\store.scale-140.png">
+      <PackagePath>images\store.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-25T03:02:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\store.scale-180.png">
+      <PackagePath>images\store.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-03-25T03:02:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\wide.scale-100.png">
+      <PackagePath>images\wide.scale-100.png</PackagePath>
+      <Modified>2013-03-25T03:13:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\wide.scale-140.png">
+      <PackagePath>images\wide.scale-140.png</PackagePath>
+      <Modified>2013-03-25T03:13:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\wide.scale-180.png">
+      <PackagePath>images\wide.scale-180.png</PackagePath>
+      <Modified>2013-03-25T03:12:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\wide.scale-80.png">
+      <PackagePath>images\wide.scale-80.png</PackagePath>
+      <Modified>2013-03-25T03:13:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\wide248.png">
+      <PackagePath>images\wide248.png</PackagePath>
+      <Modified>2013-03-25T03:13:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\wide310.png">
+      <PackagePath>images\wide310.png</PackagePath>
+      <Modified>2013-03-25T03:13:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\wide434.png">
+      <PackagePath>images\wide434.png</PackagePath>
+      <Modified>2013-03-25T03:13:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\wide558.png">
+      <PackagePath>images\wide558.png</PackagePath>
+      <Modified>2013-03-25T03:12:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\wide558.scale-100.png">
+      <PackagePath>images\wide558.scale-100.png</PackagePath>
+      <Modified>2013-03-25T03:13:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\wide558.scale-140.png">
+      <PackagePath>images\wide558.scale-140.png</PackagePath>
+      <Modified>2013-03-25T03:13:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\images\wide558.scale-180.png">
+      <PackagePath>images\wide558.scale-180.png</PackagePath>
+      <Modified>2013-03-25T03:12:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\game-media\level1.js">
+      <PackagePath>game-media\level1.js</PackagePath>
+      <Modified>2013-03-25T04:36:24.413</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-03-24T18:36:15.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\js\game.js">
+      <PackagePath>js\game.js</PackagePath>
+      <Modified>2013-03-29T19:10:39.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\js\howler.js">
+      <PackagePath>js\howler.js</PackagePath>
+      <Modified>2013-03-24T17:34:21.229</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\js\jaws.js">
+      <PackagePath>js\jaws.js</PackagePath>
+      <Modified>2013-03-24T19:20:28.384</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\js\Tween.js">
+      <PackagePath>js\Tween.js</PackagePath>
+      <Modified>2013-03-24T17:34:40.372</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\app-css\default.css">
+      <PackagePath>app-css\default.css</PackagePath>
+      <Modified>2013-03-29T18:33:47.210</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\RubbaRabbit\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-03-25T03:49:31.411</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20512</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20512</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

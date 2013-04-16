@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="EF15D539-9567-48A3-92AA-C26F5996D284" Version="1.4.177.5" Publisher="CN=Mc" />
+  <Properties>
+    <DisplayName>Gwendolynn the Lionhearted</DisplayName>
+    <PublisherDisplayName>McFunkypants</PublisherDisplayName>
+    <Logo>images\store-logo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="index.html">
+      <VisualElements DisplayName="Gwendolynn the Lionhearted" Logo="images\logo.png" SmallLogo="images\small-logo.png" Description="An example of the Ludus Game Starter Kit for HTML5 Windows 8 by McFunkypants" ForegroundText="light" BackgroundColor="#000000" ToastCapable="false">
+        <DefaultTile ShowName="allLogos" ShortName="Gwendolynn" WideLogo="images\wide-logo.png" />
+        <SplashScreen Image="images\splash-screen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="portrait" />
+          <Rotation Preference="landscape" />
+          <Rotation Preference="portraitFlipped" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="a7a4512a-1c57-47b1-ad07-147f34959733" Version="1.4.177.78" Publisher="CN=Mc" />
+  <Properties>
+    <DisplayName>Rubba Rabbit</DisplayName>
+    <PublisherDisplayName>McFunkypants</PublisherDisplayName>
+    <Logo>images\store.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="index.html">
+      <VisualElements DisplayName="Rubba Rabbit" Logo="images\logo.png" SmallLogo="images\small.png" Description="An example of the Ludus Game Starter Kit for HTML5 Windows 8 by McFunkypants" ForegroundText="light" BackgroundColor="#464646" ToastCapable="false">
+        <DefaultTile ShowName="allLogos" ShortName="Rubba Rabbit" WideLogo="images/wide.png" />
+        <SplashScreen Image="images\splashscreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="portrait" />
+          <Rotation Preference="landscape" />
+          <Rotation Preference="portraitFlipped" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>

@@ -1,0 +1,13 @@
+C:\Users\Mc\Desktop\Platformer\Platformer\bin\Debug\resources.pri
+C:\Users\Mc\Desktop\Platformer\Platformer\bin\Debug\AppxManifest.xml
+C:\Users\Mc\Desktop\Platformer\Platformer\bin\Debug\Platformer.build.appxrecipe
+C:\Users\Mc\Desktop\Platformer\Platformer\bld\Debug\priconfig.xml.intermediate
+C:\Users\Mc\Desktop\Platformer\Platformer\bld\Debug\layout.resfiles.intermediate
+C:\Users\Mc\Desktop\Platformer\Platformer\bld\Debug\resources.resfiles.intermediate
+C:\Users\Mc\Desktop\Platformer\Platformer\bld\Debug\pri.resfiles.intermediate
+C:\Users\Mc\Desktop\Platformer\Platformer\bld\Debug\priconfig.xml
+C:\Users\Mc\Desktop\Platformer\Platformer\bld\Debug\layout.resfiles
+C:\Users\Mc\Desktop\Platformer\Platformer\bld\Debug\resources.resfiles
+C:\Users\Mc\Desktop\Platformer\Platformer\bld\Debug\pri.resfiles
+C:\Users\Mc\Desktop\Platformer\Platformer\bld\Debug\LanguageQualifiers.txt
+C:\Users\Mc\Desktop\Platformer\Platformer\bld\Debug\ProjectArchitectures.txt

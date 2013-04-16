@@ -1,0 +1,219 @@
+﻿html {
+    -ms-touch-action: none;
+    -ms-user-select: none;
+}
+
+body {
+    background: black;
+    font-weight: bold;
+    font: 16px verdana;
+    font-weight: bold;
+    color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -ms-touch-action: none;
+    -ms-user-select: none;
+}
+
+#canvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-touch-action: none;
+    -ms-user-select: none;
+}
+
+#info {
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #558855;
+    text-shadow: 0px 1px 1px #0F0;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+
+#time {
+    position: absolute;
+    top: 0px;
+    right: 4px;
+    color: #558855;
+    text-shadow: 0px 1px 1px #0F0;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: #558855;
+    text-shadow: 0px 1px 1px #0F0;
+    width: 100%;
+    text-align: center;
+    height: 80px;
+}
+
+#jaws-log {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    color: red;
+}
+
+#gameover {
+    display: none;
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 100px;
+    top: 120px;
+    color: white;
+    background: silver;
+    font-size: 24px;
+    text-align: center;
+    border: 4px solid red;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+#scanlines {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: url(game-media/scanlines-big.png);
+}
+
+#bezelt {
+    position: absolute;
+    top: 50%;
+    margin-top: -258px;
+    left: 0px;
+    width: 100%;
+    height: 128px;
+    background: url(game-media/bezelt.png);
+    background-repeat: repeat-x;
+}
+
+#bezelb {
+    position: absolute;
+    top: 50%;
+    margin-top: 130px;
+    left: 0px;
+    width: 100%;
+    height: 128px;
+    background: url(game-media/bezelb.png);
+    background-repeat: repeat-x;
+}
+
+#bezell {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -386px;
+    width: 128px;
+    height: 100%;
+    background: url(game-media/bezell.png);
+    background-repeat: repeat-y;
+}
+
+#bezelr {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: 258px;
+    width: 128px;
+    height: 100%;
+    background: url(game-media/bezelr.png);
+    background-repeat: repeat-y;
+}
+
+#buttonleft {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 80px;
+    height: 80px;
+    display: block;
+    outline: none;
+    border: none;
+    background-image: url(../game-media/button-left.png);
+}
+
+#buttonright {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+    width: 80px;
+    height: 80px;
+    display: block;
+    outline: none;
+    border: none;
+    background-image: url(../game-media/button-right.png);
+}
+
+#buttonpause {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: -40px;
+    display: block;
+    outline: none;
+    border: none;
+    background-image: url(../game-media/button-pause.png);
+}
+
+#buttondown {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+    width: 80px;
+    height: 80px;
+    display: block;
+    outline: none;
+    border: none;
+    background-image: url(../game-media/button-down.png);
+}
+
+#buttonup {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    display: block;
+    outline: none;
+    border: none;
+    background-image: url(../game-media/button-up.png);
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}

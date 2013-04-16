@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
+<REPORT OVERALL_RESULT="PASS" VERSION="2.2" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="X64" SecureBoot="FALSE" APP_TYPE="WindowsStore" PUBLISHER_DISPLAY_NAME="McFunkypants" OSVERSION="6.2.9200.0" OS="Microsoft Windows 8 Pro" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="4105" VALIDATION_TYPE="CommandLine" ReportGenerationTime="2013-04-14 7:45:54 PM" ID="91cb6864c142ca21d788b621fddd5a07">
+  <REQUIREMENTS>
+    <REQUIREMENT NUMBER="1" TITLE="Clean reversible install test" RATIONALE="A clean, reversible, installation allows users to successfully manage (deploy, and remove) applications on their system." />
+    <REQUIREMENT NUMBER="2" TITLE="Install to the correct folders test" RATIONALE="Windows provides specific locations in the file system to store programs and software components, shared application data, and application data specific to a user." />
+    <REQUIREMENT NUMBER="3" TITLE="Digitally signed file test" RATIONALE="An Authenticode digital signature allows users to be sure that the software is genuine. It also allows detection if a file has been tampered with e.g. infected by a virus." />
+    <REQUIREMENT NUMBER="4" TITLE="Support x64 Windows test" RATIONALE="To maintain compatibility with 64-bit versions of Windows, it is necessary that applications should natively support 64-bit or at minimum 32-bit Windows based applications to run seamlessly on 64-bit." />
+    <REQUIREMENT NUMBER="5" TITLE="OS version checking test" RATIONALE="Applications must not perform version checks for equality (== 5.1). If you need a specific feature, check whether the feature is available. If you need Windows XP, check for Windows XP or later (&gt;= 5.1), This way, your detection code will continue to work on future versions of Windows. Driver installers and uninstall modules should never check the OS version." />
+    <REQUIREMENT NUMBER="6" TITLE="User account control (UAC) test" RATIONALE="Most applications do not require administrator privileges at run time, and should be just fine running as a standard-user. Windows applications must have a manifest (embedded or external) to define its execution level that tells OS the privileges needed to run the application." />
+    <REQUIREMENT NUMBER="7" TITLE="Adhere to system restart manager messages" RATIONALE="In a critical shutdown, applications that return FALSE to WM_QUERYENDSESSION will be sent WM_ENDSESSION and closed, while those that time out in response to WM_QUERYENDSESSION will be terminated." />
+    <REQUIREMENT NUMBER="8" TITLE="Safe mode test" RATIONALE="By default, most drivers and services that did not come preinstalled with Windows are not started in Safe Mode. They should remain disabled unless they are needed for basic operations of the system or for diagnostic and recovery purposes." />
+    <REQUIREMENT NUMBER="9" TITLE="Multiuser session test" RATIONALE="Windows users should be able to run concurrent sessions without conflict or disruption.  Applications must ensure that when running in multiple sessions either locally or remotely, the normal functionality of the application should not be impacted. Application settings and data files should not be persisted across users. A user’s privacy and preferences should be isolated to the user’s session." />
+    <REQUIREMENT NUMBER="10" TITLE="Crashes and hangs test" RATIONALE="Application failures such as crashes and hangs are a major disruption to users and cause frustration. Eliminating such failures improves application stability and reliability, and overall, provides users with a better application experience.">
+      <TEST INDEX="47" NAME="App launch tests" DESCRIPTION="App launch tests." EXECUTIONTIME="00h:00m:24s.26ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="21" NAME="Crashes and hangs" DESCRIPTION="Do not crash or hang during the testing process." EXECUTIONTIME="00h:00m:07s.28ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="11" TITLE="Compatibility and resiliency test" RATIONALE="When Windows detects that an application has operated in an incompatible manner, it applies a compatibility fix that causes the application to behave correctly, ensuring a positive user experience. Applications should not rely on this behavior since it is only provided to allow legacy applications to work correctly on Windows." />
+    <REQUIREMENT NUMBER="12" TITLE="App manifest compliance test" RATIONALE="The package manifest was missing one or more required attributes.">
+      <TEST INDEX="31" NAME="App manifest" DESCRIPTION="App manifest must include valid entries for all required fields." EXECUTIONTIME="00h:00m:03s.90ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="13" TITLE="Windows security best practices test" RATIONALE="An application should not change the default Windows security settings." />
+    <REQUIREMENT NUMBER="14" TITLE="Windows security features test" RATIONALE="Applications must opt-into Windows security features.">
+      <TEST INDEX="33" NAME="Binary analyzer" DESCRIPTION="Analysis of security features enabled on binaries" EXECUTIONTIME="00h:00m:02s.53ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="62" NAME="Private Code Signing" DESCRIPTION="App should not package private code signing key files." EXECUTIONTIME="00h:00m:01s.79ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="15" TITLE="Supported API test" RATIONALE="The application should only refer to the APIs allowed by the Windows SDK for Windows Store Apps.">
+      <TEST INDEX="38" NAME="Supported APIs" DESCRIPTION="Windows Store App must only use supported platform APIs." EXECUTIONTIME="00h:00m:04s.10ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="17" TITLE="Performance test" RATIONALE="The application should have a fast and responsive launch and suspend experience while consuming a reasonable amount of system resources (CPU, File IO, Memory etc.) to enable fast switching and multitasking between previously unopened applications.">
+      <TEST INDEX="50" NAME="Bytecode generation" DESCRIPTION="Byte code generation should be able to complete successfully for packages containing an HTML5 Windows Store app." EXECUTIONTIME="00h:00m:02s.86ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="60" NAME="Optimized Binding References" DESCRIPTION="When using bindings, WinJS.Binding.optimizeBindingReferences should be set to true to optimize the memory usage." EXECUTIONTIME="00h:00m:02s.56ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="43" NAME="Performance launch" DESCRIPTION="Application should have a responsive launch time with reasonable CPU, File IO and Memory usage" EXECUTIONTIME="00h:01m:25s.68ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="44" NAME="Performance suspend" DESCRIPTION="Application should have a responsive suspend with reasonable CPU and File IO usage" EXECUTIONTIME="00h:01m:21s.32ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="19" TITLE="App manifest resources test" RATIONALE="The Appx Package Manifest should have valid resources defined in the resources.pri file, as per the Appx Packaging Specification and Appx Manifest Schema.">
+      <TEST INDEX="45" NAME="App resources validation" DESCRIPTION="The package should have valid resources defined in the resources.pri file." EXECUTIONTIME="00h:00m:00s.75ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="61" NAME="Branding validation" DESCRIPTION="App should not use the default images packed by windows SDK samples or Visual Studio." EXECUTIONTIME="00h:00m:03s.62ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="20" TITLE="Debug configuration test" RATIONALE="The App should not install any debug binaries.">
+      <TEST INDEX="46" NAME="Debug configuration" DESCRIPTION="The App should not install any debug binaries." EXECUTIONTIME="00h:00m:03s.77ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="21" TITLE="File encoding" RATIONALE="Packages containing an HTML5 Windows Store app must have correct file encoding.">
+      <TEST INDEX="49" NAME="UTF-8 file encoding" DESCRIPTION="Packages containing an HTML5 Windows Store app must have correct file encoding." EXECUTIONTIME="00h:00m:02s.15ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="22" TITLE="Direct3D feature level support" RATIONALE="Applications must render content on Direct3D feature level 9.1 hardware.">
+      <TEST INDEX="51" NAME="Direct3D feature level support" DESCRIPTION="Applications must render content on Direct3D feature level 9.1 hardware." EXECUTIONTIME="00h:00m:00s.97ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="23" TITLE="App Capabilities test" RATIONALE="Packages declaring special-use capabilities will have to provide justifications during the onboarding process.">
+      <TEST INDEX="52" NAME="Special Use Capabilities" DESCRIPTION="Packages declaring special-use capabilities will have to provide justifications during the onboarding process." EXECUTIONTIME="00h:00m:02s.10ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="24" TITLE="Windows Runtime metadata validation" RATIONALE="Metadata needs to be conformant and consistent across all generation sources.">
+      <TEST INDEX="56" NAME="ExclusiveTo attribute test" DESCRIPTION="A class must not implement an interface that is marked ExclusiveTo another class." EXECUTIONTIME="00h:00m:01s.53ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="57" NAME="Type location test" DESCRIPTION="Types must be defined in the metadata file with the longest matching namespace." EXECUTIONTIME="00h:00m:00s.75ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="55" NAME="Type name case-sensitivity test" DESCRIPTION="Namespace and type names must not vary only by casing." EXECUTIONTIME="00h:00m:00s.72ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="54" NAME="Type name correctness test" DESCRIPTION="Only system types can be in the Windows namespace and no types can be in the global namespace." EXECUTIONTIME="00h:00m:00s.73ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="58" NAME="General metadata correctness test" DESCRIPTION="Metadata files must meet various requirements in order to be valid and correct." EXECUTIONTIME="00h:00m:01s.55ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="53" NAME="Properties test" DESCRIPTION="Write-only and indexer properties may not be used. Corresponding getter and setter methods must match in type." EXECUTIONTIME="00h:00m:00s.74ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+  </REQUIREMENTS>
+  <APPLICATIONS>
+    <Installed_Programs>
+      <Program Name="a7a4512a-1c57-47b1-ad07-147f34959733" Type="Application" Source="AppxPackage" Publisher="CN=Mc" Version="1.4.177.78" Language="1033" OnSystemDrive="true" RootDirPath="C:\Program Files\WindowsApps\a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t" PathEvidenceId="0x1772" RNP="0x1" DNP="0xd" EvidenceId="0x1772" Id="0000baf58436368cfac6e51dc58a3bdc65ca00000904">
+        <Indicators>
+          <DirectoryIndicators>
+            <Directory Name="game-media" Path="c:\program files\windowsapps\a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t\game-media" RNP="0x9" DNP="0xb" UniqueId="0x1776" Id="0000129ffef56b5ab6e66d6cb2a92d0824d475f154e4" />
+            <Directory Name="a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t" Path="c:\program files\windowsapps\a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t" RNP="0x9" DNP="0xb" UniqueId="0x1773" Id="0000f4a2e7345cb5e003178049b27de0acd8cd070fa3" />
+            <Directory Name="js" Path="c:\program files\windowsapps\a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t\js" RNP="0x9" DNP="0xb" UniqueId="0x177b" Id="0000ed830a2cad918e620bb3cae846c3985ea8ddae26" />
+          </DirectoryIndicators>
+          <PackageManifestIndicator>
+            <PackageManifest PackageFullName="a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t" />
+            <Identity Name="a7a4512a-1c57-47b1-ad07-147f34959733" Version="1.4.177.78" Publisher="CN=Mc" ProcessorArchitecture="neutral" />
+            <Dependencies>
+              <PackageDependency Name="Microsoft.WinJS.1.0" MinVersion="1.0.9200.20602" />
+            </Dependencies>
+            <Properties>
+              <DisplayName>Rubba Rabbit</DisplayName>
+              <PublisherDisplayName>McFunkypants</PublisherDisplayName>
+              <Logo>images\store.png</Logo>
+            </Properties>
+            <Resources>
+              <Resource Language="EN-US" />
+            </Resources>
+            <Prerequisites>
+              <OSMinVersion>6.2.1</OSMinVersion>
+              <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+            </Prerequisites>
+          </PackageManifestIndicator>
+        </Indicators>
+        <StaticProperties>
+          <Files Id="0000a5521c77861d91bf4dcf7711abebc459e63f9328">
+            <File Name="tween.js" Id="0000397bb683d7f13031e9f3ff372de6b09c1c3cf997" Size="0x3241" BinaryType="UNKNOWN" Created="04/15/2013 02:41:30" Modified="04/15/2013 02:41:31" Path="c:\program files\windowsapps\a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t\js\tween.js" LongPathHash="0000cda9a93b802a3552731d8322fd3c98edc630db8f" UniqueId="0x1780" />
+            <File Name="index.html" Id="000016ff85f07f6ebf870ac4270088e76f1501459af0" ShortName="INDEX~1.HTM" Size="0x72c" BinaryType="UNKNOWN" Created="04/15/2013 02:41:30" Modified="04/15/2013 02:41:31" Path="c:\program files\windowsapps\a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t\index.html" LongPathHash="0000ef3d9c1819a16fe095b60ded2f51ef049117c72c" UniqueId="0x1774" />
+            <File Name="level1.js" Id="0000553596cf8bf475113843d30d5e900abb127c3dcd" Size="0x30728" BinaryType="UNKNOWN" Created="04/15/2013 02:41:30" Modified="04/15/2013 02:41:30" Path="c:\program files\windowsapps\a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t\game-media" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t\game-media\level1.js" LongPathHash="0000ad040d18b2dad7c631a557141e14e922dca6d9cb" UniqueId="0x1777" />
+            <File Name="level2.js" Id="00009031cfdfcd1183417c1aa9cd892d087bdff27713" Size="0x309d8" BinaryType="UNKNOWN" Created="04/15/2013 02:41:30" Modified="04/15/2013 02:41:30" Path="c:\program files\windowsapps\a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t\game-media" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t\game-media\level2.js" LongPathHash="0000678ec31e4776e1a5d0e438a8d734b59c2e0d5a86" UniqueId="0x1778" />
+            <File Name="jaws.js" Id="0000fc587c2a932f71e006452101fe4f6919a3df114d" Size="0x17cd0" BinaryType="UNKNOWN" Created="04/15/2013 02:41:30" Modified="04/15/2013 02:41:31" Path="c:\program files\windowsapps\a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t\js\jaws.js" LongPathHash="00004265877c6acc58d5637813059aba254db0f4582e" UniqueId="0x177e" />
+            <File Name="ludus.js" Id="0000f229b1e46c98e5520c2ca13997c1c92d50e1443f" Size="0x16e69" BinaryType="UNKNOWN" Created="04/15/2013 02:41:30" Modified="04/15/2013 02:41:31" Path="c:\program files\windowsapps\a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t\js\ludus.js" LongPathHash="00007439879926266402c24bd364b21931a249da6c1f" UniqueId="0x177f" />
+            <File Name="default.js" Id="000072344bb3a02a82ff4208637b51a7d6e9f82647f9" Size="0x5f4" BinaryType="UNKNOWN" Created="04/15/2013 02:41:30" Modified="04/15/2013 02:41:31" Path="c:\program files\windowsapps\a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t\js\default.js" LongPathHash="000024e4b52781ddf900022518ef9a16e5bcbf94949e" UniqueId="0x177c" />
+            <File Name="level3.js" Id="00002450a4bcdab18bd20323e54d89b1fe7983b0a86e" Size="0x30b64" BinaryType="UNKNOWN" Created="04/15/2013 02:41:30" Modified="04/15/2013 02:41:30" Path="c:\program files\windowsapps\a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t\game-media" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t\game-media\level3.js" LongPathHash="000012e3541cfbdbdec6875344decde3af2c0192880e" UniqueId="0x1779" />
+            <File Name="howler.js" Id="0000661eb62407c3b169ee6bd42432e627bed3991343" Size="0x5e50" BinaryType="UNKNOWN" Created="04/15/2013 02:41:30" Modified="04/15/2013 02:41:31" Path="c:\program files\windowsapps\a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t\js\howler.js" LongPathHash="00003588c9d3754dbf0c3bffdabc77291f9aceef899f" UniqueId="0x177d" />
+          </Files>
+        </StaticProperties>
+      </Program>
+    </Installed_Programs>
+  </APPLICATIONS>
+  <DEPENDENCY_INFORMATION>
+    <AitStaticAnalysis ProgramId="0000baf58436368cfac6e51dc58a3bdc65ca00000904" AnalysisVersion="1.54" DictionaryVersion="1.6" Type="Package" Id="a7a4512a-1c57-47b1-ad07-147f34959733_1.4.177.78_neutral__jecck05a2ae4t">
+      <AitFile ErrorCode="0" Name="index.html" Id="000016ff85f07f6ebf870ac4270088e76f1501459af0">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="level3.js" Id="00002450a4bcdab18bd20323e54d89b1fe7983b0a86e" />
+      <AitFile ErrorCode="0" Name="tween.js" Id="0000397bb683d7f13031e9f3ff372de6b09c1c3cf997" />
+      <AitFile ErrorCode="0" Name="level1.js" Id="0000553596cf8bf475113843d30d5e900abb127c3dcd" />
+      <AitFile ErrorCode="0" Name="howler.js" Id="0000661eb62407c3b169ee6bd42432e627bed3991343" />
+      <AitFile ErrorCode="0" Name="default.js" Id="000072344bb3a02a82ff4208637b51a7d6e9f82647f9">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.Application" />
+          <AitFeature Name="WinJS.Application.sessionState" />
+          <AitFeature Name="WinJS.Binding.optimizeBindingReferences" />
+          <AitFeature Name="WinJS.UI.processAll" />
+          <AitFeature Name="Windows.ApplicationModel.Activation" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="level2.js" Id="00009031cfdfcd1183417c1aa9cd892d087bdff27713" />
+      <AitFile ErrorCode="0" Name="ludus.js" Id="0000f229b1e46c98e5520c2ca13997c1c92d50e1443f" />
+      <AitFile ErrorCode="0" Name="jaws.js" Id="0000fc587c2a932f71e006452101fe4f6919a3df114d" />
+    </AitStaticAnalysis>
+  </DEPENDENCY_INFORMATION>
+</REPORT>

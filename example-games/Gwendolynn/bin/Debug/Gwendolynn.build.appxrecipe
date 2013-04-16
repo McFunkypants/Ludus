@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>FUNKY</Machine>
+    <WindowsUser>Mc</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\index.html">
+      <PackagePath>index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\attack.mp3">
+      <PackagePath>game-media\attack.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\die.mp3">
+      <PackagePath>game-media\die.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\failure.mp3">
+      <PackagePath>game-media\failure.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\hitenemy.mp3">
+      <PackagePath>game-media\hitenemy.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\jump.mp3">
+      <PackagePath>game-media\jump.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\music.mp3">
+      <PackagePath>game-media\music.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\pickup.mp3">
+      <PackagePath>game-media\pickup.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\start.mp3">
+      <PackagePath>game-media\start.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\success.mp3">
+      <PackagePath>game-media\success.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\swish.mp3">
+      <PackagePath>game-media\swish.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\button-down.png">
+      <PackagePath>game-media\button-down.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\button-left.png">
+      <PackagePath>game-media\button-left.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\button-pause.png">
+      <PackagePath>game-media\button-pause.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\button-right.png">
+      <PackagePath>game-media\button-right.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\button-up.png">
+      <PackagePath>game-media\button-up.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\enemies.png">
+      <PackagePath>game-media\enemies.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\font.png">
+      <PackagePath>game-media\font.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\gameover.png">
+      <PackagePath>game-media\gameover.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\gui.png">
+      <PackagePath>game-media\gui.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\msgbox.png">
+      <PackagePath>game-media\msgbox.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\parallax.png">
+      <PackagePath>game-media\parallax.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\particles.png">
+      <PackagePath>game-media\particles.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\player.png">
+      <PackagePath>game-media\player.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\tiles.png">
+      <PackagePath>game-media\tiles.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\titlescreen.png">
+      <PackagePath>game-media\titlescreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\logo.scale-140.png">
+      <PackagePath>images\logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\logo.scale-180.png">
+      <PackagePath>images\logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\logo.scale-80.png">
+      <PackagePath>images\logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\logo120.png">
+      <PackagePath>images\logo120.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\logo150.png">
+      <PackagePath>images\logo150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\logo210.png">
+      <PackagePath>images\logo210.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\logo256.png">
+      <PackagePath>images\logo256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\logo270.png">
+      <PackagePath>images\logo270.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\small-logo.scale-100.png">
+      <PackagePath>images\small-logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\small-logo.scale-140.png">
+      <PackagePath>images\small-logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\small-logo.scale-180.png">
+      <PackagePath>images\small-logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\small-logo.scale-80.png">
+      <PackagePath>images\small-logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\small-logo.targetsize-16.png">
+      <PackagePath>images\small-logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\small-logo.targetsize-256.png">
+      <PackagePath>images\small-logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\small-logo.targetsize-32.png">
+      <PackagePath>images\small-logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\small-logo.targetsize-48.png">
+      <PackagePath>images\small-logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\splash-screen.scale-100.png">
+      <PackagePath>images\splash-screen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\splash-screen.scale-140.png">
+      <PackagePath>images\splash-screen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\splash-screen.scale-180.png">
+      <PackagePath>images\splash-screen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\store-logo.scale-100.png">
+      <PackagePath>images\store-logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\store-logo.scale-140.png">
+      <PackagePath>images\store-logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\store-logo.scale-180.png">
+      <PackagePath>images\store-logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\wide-logo.scale-100.png">
+      <PackagePath>images\wide-logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\wide-logo.scale-140.png">
+      <PackagePath>images\wide-logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\wide-logo.scale-180.png">
+      <PackagePath>images\wide-logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\images\wide-logo.scale-80.png">
+      <PackagePath>images\wide-logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\level1.js">
+      <PackagePath>game-media\level1.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\level2.js">
+      <PackagePath>game-media\level2.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\game-media\level3.js">
+      <PackagePath>game-media\level3.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\js\ludus.js">
+      <PackagePath>js\ludus.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\js\howler.js">
+      <PackagePath>js\howler.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\js\jaws.js">
+      <PackagePath>js\jaws.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\js\tween.js">
+      <PackagePath>js\tween.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\app-css\default.css">
+      <PackagePath>app-css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Mc\Desktop\Ludus\example-games\Gwendolynn\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20602</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20602</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
