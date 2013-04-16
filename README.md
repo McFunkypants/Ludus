@@ -33,8 +33,13 @@ you might need to make a polished game, such as GUI and sound.
 
 PLAYING THE EXAMPLE GAMES
 
-![Rubba Rabbit](http://www.mcfunkypants.com/ludus/RubbaRabbit.png)(http://www.mcfunkypants.com/RubbaRabbit/)
-![Gwendolynn the Lionhearted](http://www.mcfunkypants.com/ludus/Gwendolynn.png)(http://www.mcfunkypants.com/Gwendolynn/)
+![Rubba Rabbit](http://www.mcfunkypants.com/ludus/RubbaRabbit.png)
+
+http://www.mcfunkypants.com/RubbaRabbit/
+
+![Gwendolynn the Lionhearted](http://www.mcfunkypants.com/ludus/Gwendolynn.png)
+
+http://www.mcfunkypants.com/Gwendolynn/
 
 There are two example games:
 
