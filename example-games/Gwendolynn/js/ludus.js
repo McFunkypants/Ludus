@@ -1,6 +1,6 @@
 ﻿////////////////////////////////////////////////////////////////
 // LUDUS HTML5 Platformer Game Starter Kit for Windows 8 Store
-// Version 1.4 rev.177 (MIT license)
+// Version 1.4 rev.179 (MIT license)
 // by Christer (@McFunkypants) Kaitila (http://mcfunkypants.com)
 ////////////////////////////////////////////////////////////////
 // Source: https://github.com/mcfunkypants/ludus
@@ -83,11 +83,11 @@ THE SOFTWARE.
 
     // debug
     var debugmode = 0; // 1 for debug info and profiler, >1 for bbox draw
-    var debugtileyonce = debugmode; // info about first collision
-    var debugactiononce = debugmode; // info about first collision
+    var debugtileyonce = debugmode; // log detailed info about first collision
+    var debugactiononce = debugmode; // log the 1st touched tile that has an "action" (pickup, etc)
     var debugcollisionaabb = (debugmode > 1); // should we draw red rectangles?
     var last_touched_sprite = null; // for debugging collision detection only
-    var last_touched_sprite_number = -999; // what spritemap tile #
+    var last_touched_sprite_number = -999; // what spritemap tile # did we last touch?
     var world_complexity = 0; // current # tiles that were found in the level data - used for debugging only
     var profile_starts = []; // for debug only: performance PROFILER
     var profile_length = []; // time how long things take to find performance bottlenecks
@@ -143,8 +143,7 @@ THE SOFTWARE.
     var level = []; // an array of jason level data objects
     var starting_level_number = 0; // should be zero except when testing
     var current_level_number = starting_level_number; // which one are we playing?
-    var lastLevelCompletedOnFrame = 0; // used to "debounce" level tile warp collision events 
-    var lastLevelCompleted = -1; // used to ignore multiple "levelComplete()" events in a single frame
+    var pendingLevelComplete = false; // do we need to change levels next frame?
     var levelnext = 1; // used for iterating through .js data globals (eg. window.level1)
     var TILESIZE = 32; // pixel dimensions of the level spritesheet tiles
     var TILESIZEDIV2 = (TILESIZE / 2) | 0; // |0 just forces integer type
@@ -598,12 +597,12 @@ THE SOFTWARE.
             else {
                 if (level[current_level_number]) // more to come?
                 {
-                    log('Next world (level ' + current_level_number + ') exists...');
+                    //log('Next world (level ' + current_level_number + ') exists...');
                     levelcompleteSprite.draw();
                 }
                 else // game over: final level completed!
                 {
-                    log('Next world (level ' + current_level_number + ') does not exist. GAME COMPLETED!');
+                    //log('Next world (level ' + current_level_number + ') does not exist. GAME COMPLETED!');
                     gameoverSprite.draw();
                     beatTheGameSprite.draw();
                 }
@@ -862,6 +861,9 @@ THE SOFTWARE.
                 if (particles_enabled) updateParticles();
 
             } // end sims loop for FPS independence
+
+            // one or more collisions above may have set this to true
+            if (pendingLevelComplete) levelComplete();
 
             profile_end('UPDATE SIMULATION');
 
@@ -1437,18 +1439,11 @@ THE SOFTWARE.
     * Switches to the transition state before loading the next level.
     */
     function levelComplete() {
-        // this could get called multiple times in the same frame
-        // so we need to ensure we only do this once
-        if (lastLevelCompletedOnFrame != framecount) {
-            log('Level ' + current_level_number + ' complete!');
-            lastLevelCompletedOnFrame = framecount;
-            updateGUIsprites(ScoreGUI, player.score); // immediate update to proper value 
-            transition_mode = TRANSITION_LEVEL_COMPLETE;
-            jaws.switchGameState(LevelTransitionScreenState);
-        }
-        else {
-            log('Ignoring duplicate levelComplete() collision event: lastLevelCompletedOnFrame=' + lastLevelCompletedOnFrame + ' framecount=' + framecount);
-        }
+        log('Level ' + current_level_number + ' complete!');
+        updateGUIsprites(ScoreGUI, player.score); // immediate update to proper value 
+        transition_mode = TRANSITION_LEVEL_COMPLETE;
+        pendingLevelComplete = false;
+        jaws.switchGameState(LevelTransitionScreenState);
     }
 
     /**
@@ -1533,7 +1528,8 @@ THE SOFTWARE.
 
             if (level_complete_when_all_pickups_gone && (pickups_remaining < 1)) {
                 log('No more pickups remain!');
-                levelComplete();
+                //levelComplete(); // might get called more than once if we run it here
+                pendingLevelComplete = true; // handle edge case: we hit >1 in the same frame
             }
 
         }
@@ -1563,7 +1559,8 @@ THE SOFTWARE.
     */
     var warpActionFunction = function (whodunnit) {
         log('WARP ACTION at ' + this.x + ',' + this.y, true);
-        levelComplete();
+        //levelComplete(); // might get called more than once if we run it here
+        pendingLevelComplete = true; // handle edge case: we hit >1 in the same frame
     };
 
     /**
